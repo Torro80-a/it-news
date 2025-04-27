@@ -72,6 +72,49 @@ animation: swim 4s ease 0s infinite;
     transform: translate(-30%,-50%);
     z-index: 1;
 }
+.top-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.news{
+    width: 1000px;
+    margin: 0 auto 30px ;
+    border: 1px solid black;
+}
+.news-title{
+    background-color: black;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.category{
+    background-color: rgb(170, 4, 4);
+    color: aliceblue;
+    font-size: 24px;
+    text-align: center;
+    padding: 8px 0;
+}
+.news img{
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.news-text{
+    padding: 20px;
+    font-size: 20px;
+    position: relative;
+    z-index: 4;
+    background-color: aliceblue;
+}
 @keyframes swim{
 0%{
 transform: translate(0,0);
